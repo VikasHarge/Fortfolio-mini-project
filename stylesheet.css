@@ -293,6 +293,17 @@ header{
     flex-direction: column;
     justify-content: center;
 }
+.projectHeading{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectHeading>h1{
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 50px;
+}
 
 .Project_list{
     width: 100%;
@@ -331,25 +342,33 @@ header{
     color: white;
 }
 .projectInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     font: 19px/23px Montserrat,"Montserrat",sans-serif;
     font-size: 15px;
     box-sizing: border-box;
-    padding: 30px 16px 16px 16px;
+    padding: 10px 16px 10px 16px;
     width: 100%;
-    height: 70%;
-    background-color: white;
+    height: 70%;    
+    background-color: transparent;
     border-radius: 0 0 15px 15px;
     text-align: center;
+}
+.projectInfo>p{
+    margin: 0ch;
+
 }
 .project_btn{
     font: 19px/23px Montserrat,"Montserrat",sans-serif;
     font-size: 15px;
-    margin: 20px 12px;
     padding: 8px 12px;
-    border-color: blueviolet;
     border: none;
+    background-color: rgba(136, 136, 136, 0.35);
     color: rgb(0, 0, 0);
     border-radius: 8px;
+    margin-bottom:10px;
 }
 .project_btn:hover{
     transition: 5ms;
@@ -357,37 +376,76 @@ header{
     color: white;
     border: none;
 }
-.projectHeading{
-    /* margin-top: 80px; */
-    width: 100%;
-    height: 20%;
-}
 
-.projectHeading{
-    font-family: 'Saira Extra Condensed',serif;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #contact{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 0, 191);
 }
 .contact_address_L{
-    width: 40%;
+    width: 50%;
     height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    padding: 20px 60px 20px 60px;
-    background-color: blue;
+    padding: 20px 60px 0px 60px;
 }
-.contact_address_L>h1,p{
-    margin: 20px;
+.contact_address_R{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height:100vh;
+    
+}
+.Contact_form_D{
+    width: 90%;
+    height: 70vh;
+    margin-top: 80px;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 20%);
+}
+.Contact_form_D:hover{
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+}
 
+.Contact_form{
+    width: 100%;
+    height: 67vh;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 80px;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px */
+}
+.Contact_form>input{
+    box-sizing: border-box;
+    width:70%;
+    height: 40px;
+    margin: 15px 0 15px 60px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(136, 136, 136, 0.3);
+}
+.Contact_form>input:active{
+    border-color: blueviolet;
+}
+.Contact_form>input:first-child{
+    margin-top: 40px;
+}
+.Contact_form>input:nth-child(4){
+    height: 80px;
 }
