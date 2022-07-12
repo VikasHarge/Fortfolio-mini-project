@@ -72,7 +72,7 @@ header{
     font-size: 20px;
     background-color: rgba(110, 110, 110, 0.24);
     border-radius: 5px;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
 }
 #btn{
     margin-left: 30px;
@@ -435,6 +435,7 @@ header{
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     /* margin-top: 80px;    
     display:flex;
     justify-content: center;
@@ -458,9 +459,9 @@ header{
     box-sizing: border-box;
     outline-color: blueviolet;
 }
-.Contact_form>form>input:first-child{
-    margin-top: 40px;
-}
+/* .Contact_form>form>input:first-child{
+    margin-top: 30px;
+} */
 .Contact_form>form>input:nth-child(4){
     height: 80px;
 }
