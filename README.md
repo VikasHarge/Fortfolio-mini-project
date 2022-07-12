@@ -1,11 +1,15 @@
 # My Portfolio
 
 This is my clean, basic Portfolio developed for my Mini-Project.
+<br>
 
 ## Over View of my Portfolio
 
 <img src="./Media, gif, videos\Vikas_Portfolio_1.gif"></img>
 
+<br>
+
+## Visit my page 
 
 ## Colors I have used in project
 
