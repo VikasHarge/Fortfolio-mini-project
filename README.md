@@ -4,7 +4,7 @@ This is my clean, basic Portfolio developed for my Mini-Project.
 
 ## Over View of my Portfolio
 
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
+<video src="./S:\Newton School\Projects\Fortfolio-mini-project\Media, gif, videos\Vikas Portfolio.mp4"></img>
 
 
 ## Colors I have used in project
