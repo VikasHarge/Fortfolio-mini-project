@@ -13,7 +13,7 @@ This is my clean, basic Portfolio developed for my Mini-Project.
 
 [Click here](https://vikasharge.github.io/Fortfolio-mini-project/)
 
-## Protfoli0 content
+## Protfolio content
 
 - about Me
 - My Skillsets
