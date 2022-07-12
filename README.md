@@ -11,6 +11,15 @@ This is my clean, basic Portfolio developed for my Mini-Project.
 
 ## Visit my page 
 
+[Click here](https://vikasharge.github.io/Fortfolio-mini-project/)
+
+## Protfoli0 content
+
+- about Me
+- My Skillsets
+- Projects i am working on
+- Connect with me
+
 ## Colors I have used in project
 
 | Color             | RGBA                                                                |
@@ -19,3 +28,7 @@ This is my clean, basic Portfolio developed for my Mini-Project.
 | blueviolet| rgb(138, 43, 226)|
 | Grey | rgba(255, 255, 255, 0.5)  |
 
+
+## Authors
+
+- [@Vikas_Harge](https://github.com/VikasHarge)
