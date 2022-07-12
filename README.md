@@ -4,7 +4,7 @@ This is my clean, basic Portfolio developed for my Mini-Project.
 
 ## Over View of my Portfolio
 
-<video src="Media, gif, videos\Vikas_Portfolio_1.gif></img>
+<video src="./Media, gif, videos\Vikas_Portfolio_1.gif></img>
 
 
 ## Colors I have used in project
