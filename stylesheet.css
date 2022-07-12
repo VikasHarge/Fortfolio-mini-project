@@ -140,13 +140,13 @@ header{
     margin-bottom: 30px;
 }
 .para{
-    font: 19px/23px Montserrat,"Montserrat",sans-serif;
-    -webkit-font-smoothing: antialiased;
     display: flex;
     text-align: center;
-    line-height: 30px;
+    font: 19px/23px Montserrat,"Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
     font-size: 20px;
     font-weight: 100;
+    line-height: 30px;
     margin: 10px 10px;
     padding: 10px 10px;
     color: grey;
@@ -357,12 +357,22 @@ header{
     text-align: center;
 }
 .projectInfo>p{
+    font: 19px/23px Montserrat,"Montserrat",sans-serif;
+    font-size: 18px;
+    padding: 10px 16px 10px 16px;   
+    background-color: transparent;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+
+.projectInfo>p{
     margin: 0ch;
 
 }
 .project_btn{
     font: 19px/23px Montserrat,"Montserrat",sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     padding: 8px 12px;
     border: none;
     background-color: rgba(136, 136, 136, 0.35);
@@ -431,7 +441,7 @@ header{
     align-items: center;
     border-radius: 15px */
 }
-.Contact_form>input{
+.Contact_form>form>input{
     box-sizing: border-box;
     width:70%;
     height: 40px;
@@ -439,13 +449,18 @@ header{
     border-radius: 6px;
     border: none;
     background-color: rgba(136, 136, 136, 0.3);
+    padding: 8px;
+    font: 19px/23px Montserrat,"Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
 }
-.Contact_form>input:active{
-    border-color: blueviolet;
+.Contact_form>form>input:focus{
+    box-sizing: border-box;
+    outline-color: blueviolet;
 }
-.Contact_form>input:first-child{
+.Contact_form>form>input:first-child{
     margin-top: 40px;
 }
-.Contact_form>input:nth-child(4){
+.Contact_form>form>input:nth-child(4){
     height: 80px;
 }
