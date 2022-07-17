@@ -15,14 +15,6 @@ for(const icon of skillicons){
 
 // Progress Bar
 
-// const skillClick = document.getElementById('skillClick')
-
-// const scrolls = document.getElementsByTagName('section');
-
-// const scrolls = document.getElementById('skills')
-// // console.log(scrolls);
-
-// scrolls.addEventListener('onfocus',(e)=>{
     const progresses = document.getElementsByClassName('progress_done');
     
     for(const progress of progresses){
@@ -30,7 +22,7 @@ for(const icon of skillicons){
         progress.style.width = progress.getAttribute('data-done')+'%';
         }, 500)
     }
-// })
+
 
 
 
